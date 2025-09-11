@@ -39,6 +39,16 @@ const Skill = () => {
         desc: "Back-End",
       },
       {
+        imgSrc: "/images/spring-boot-logo.png",
+        label: "Spring Boot",
+        desc: "Back-End Framework",
+      },
+      {
+        imgSrc: "/images/sql.png",
+        label: "MySQL",
+        desc: "Database",
+      },
+      {
         imgSrc: "/images/python.png",
         label: "Python",
         desc: "",
@@ -47,7 +57,7 @@ const Skill = () => {
         imgSrc: "/images/c++.png",
         label: "C++",
         desc: "",
-      },
+      }
     ];
 
   return( 

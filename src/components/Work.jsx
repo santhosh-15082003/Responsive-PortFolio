@@ -29,7 +29,7 @@ const works = [
     imgSrc: "/images/project-4.jpg",
     title: "Real state website",
     tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
+    projectLink: "",
   },
   // {
   //   imgSrc: "/images/project-5.jpg",

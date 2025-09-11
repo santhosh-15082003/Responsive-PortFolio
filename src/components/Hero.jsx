@@ -4,18 +4,15 @@
  */
 
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import Typed from 'typed.js'
+import Typed from "typed.js";
 import React, { useEffect, useRef } from "react";
 
 const Hero = () => {
-
-  const typedRef = useRef(null)
+  const typedRef = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: [
-        "Front-End Developer",
-      ],
+      strings: ["Software Developer"],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1000,
@@ -27,8 +24,8 @@ const Hero = () => {
 
     return () => {
       typed.destroy();
-    }
-  }, [])
+    };
+  }, []);
 
   return (
     <section id="home" className="pt-28 lg:pt-12">

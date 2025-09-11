@@ -15,8 +15,8 @@ const About = () => {
             academic foundation and hands-on experience in front-end
             development. I have a passion for creating responsive and
             user-centric web applications using modern technologies like
-            React.js, HTML, CSS, and JavaScript, alongside proficiency in
-            Python, Java, and C++.
+            React.js, Spring boot, MySQL, HTML, CSS, and JavaScript, alongside
+            proficiency in Python, Java, and C++.
             <br /> <br /> My academic journey is complemented by practical
             exposure through internships in web and mobile app development,
             where I gained valuable experience working with real-world projects
