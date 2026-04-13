@@ -27,9 +27,9 @@ const works = [
   },
   {
     imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "",
+    title: "EduDoc Recovery System",
+    tags: ["Web-design", "Development", "Rest-API", "Spring Security"],
+    projectLink: "https://github.com/santhosh-15082003/EduDoc-Recovery-System",
   },
   // {
   //   imgSrc: "/images/project-5.jpg",
