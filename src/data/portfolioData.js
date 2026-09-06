@@ -1,15 +1,16 @@
 export const PERSONAL_INFO = {
   name: "Santhosh Balamurugan",
   shortName: "Santhosh",
-  title: "Full Stack Java Developer",
+  title: "Full Stack Java & AI Developer",
   roles: [
     "Full Stack Java Developer",
+    "Python & AI Engineer",
     "React.js & Spring Boot Engineer",
     "REST API & Backend Specialist",
     "Software Developer",
     "Freelance Developer"
   ],
-  bio: "Full Stack Java Developer with hands-on experience in Java, Spring Boot, Spring Security, React.js, MySQL, and REST API development. Delivered production-grade projects reducing manual workload and passionate about scalable software architecture.",
+  bio: "Full Stack Developer with hands-on experience in Java, Spring Boot, Python, AI/LLMs, React.js, MySQL, and REST API development. Delivered production-grade projects reducing manual workload and passionate about scalable software architecture & intelligent automation.",
   location: "India",
   availability: "Available for Full-time Roles & Freelance Projects",
   phone: "+91 9345897419",
@@ -57,8 +58,8 @@ export const PERSONAL_INFO = {
     }
   ],
   stats: [
-    { label: "Production Projects", value: "2+", suffix: "Grade" },
-    { label: "Technologies Mastered", value: "15+", suffix: "Stack" },
+    { label: "Production Projects", value: "3+", suffix: "Grade" },
+    { label: "Technologies Mastered", value: "18+", suffix: "Stack" },
     { label: "Internships Completed", value: "2", suffix: "Roles" },
     { label: "Code Quality & Delivery", value: "100%", suffix: "Committed" }
   ]
@@ -70,9 +71,19 @@ export const SKILLS_DATA = [
     id: "languages",
     skills: [
       { name: "Java", level: "Advanced", icon: "Coffee", desc: "OOP principles, Collections framework, Multithreading, MVC" },
+      { name: "Python", level: "Advanced", icon: "Terminal", desc: "Scripting, AI workflows, OCR integration, automation & data handling" },
       { name: "JavaScript (ES6+)", level: "Advanced", icon: "FileCode", desc: "Async/await, DOM APIs, modern ECMAScript features" },
       { name: "SQL", level: "Advanced", icon: "Database", desc: "Query optimization, indexing, schema normalization" },
       { name: "HTML5 & CSS3", level: "Expert", icon: "Layout", desc: "Semantic markup, responsive layouts, accessibility" }
+    ]
+  },
+  {
+    category: "AI & Machine Learning",
+    id: "ai-ml",
+    skills: [
+      { name: "AI & Machine Learning", level: "Proficient", icon: "Sparkles", desc: "Intelligent automation, computer vision, data classification" },
+      { name: "OCR (Optical Character Recognition)", level: "Advanced", icon: "ScanText", desc: "Document digitizing, text extraction from images and PDFs" },
+      { name: "LLM (Large Language Models)", level: "Proficient", icon: "Brain", desc: "Prompt engineering, contextual summarization & NLP pipelines" }
     ]
   },
   {
@@ -107,6 +118,22 @@ export const SKILLS_DATA = [
 ];
 
 export const WORK_PROJECTS = [
+  {
+    id: "python-ai-toolkit",
+    title: "ToolKit using Python AI",
+    subtitle: "OCR, LLMs & Document Intelligence Pipeline",
+    description: "A versatile AI-powered utility toolkit engineered with Python, integrating Optical Character Recognition (OCR), Large Language Models (LLMs), automated document processing, and analytical text extraction workflows.",
+    tags: ["Python", "AI", "OCR", "LLM", "Data Processing", "Document Intelligence"],
+    image: "/assets/project-python-ai-toolkit.jpg",
+    github: "https://github.com/santhosh-15082003/ToolKit-using-PythonAI",
+    featured: true,
+    highlights: [
+      "Integrated OCR optical character recognition pipeline for high-accuracy text extraction from images & scanned documents",
+      "Harnessed Large Language Models (LLMs) for automated text summarization, prompt analysis, and contextual insights",
+      "Engineered scalable document processing pipelines for automated parsing of PDFs, docs, and raw datasets",
+      "Designed modular Python architecture allowing plug-and-play AI utility extensions"
+    ]
+  },
   {
     id: "edudoc-recovery-system",
     title: "EduDoc Recovery System",

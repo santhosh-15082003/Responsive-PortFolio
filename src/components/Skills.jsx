@@ -17,6 +17,10 @@ import {
   Send, 
   Package, 
   Terminal,
+  Brain,
+  ScanText,
+  Cpu,
+  Bot,
   Check
 } from 'lucide-react';
 import { SKILLS_DATA } from '../data/portfolioData';
@@ -38,7 +42,12 @@ const ICON_MAP = {
   GitBranch,
   Send,
   Package,
-  Terminal
+  Terminal,
+  Brain,
+  ScanText,
+  Cpu,
+  Bot,
+  Sparkles
 };
 
 export default function Skills() {
@@ -46,10 +55,11 @@ export default function Skills() {
 
   const categories = [
     { id: 'all', label: 'All Technologies' },
+    { id: 'languages', label: 'Languages' },
+    { id: 'ai-ml', label: 'AI & Machine Learning' },
+    { id: 'backend', label: 'Backend & Security' },
     { id: 'frontend', label: 'Frontend' },
-    { id: 'backend', label: 'Backend & APIs' },
-    { id: 'databases', label: 'Databases' },
-    { id: 'tools', label: 'Tools & DevOps' }
+    { id: 'databases-devops', label: 'Databases & DevOps' }
   ];
 
   const filteredSkills = selectedCategory === 'all'
@@ -73,7 +83,7 @@ export default function Skills() {
             Skills & <span className="text-gradient-sky">Technologies</span>
           </h2>
           <p className="mt-3 text-base text-slate-600 max-w-2xl">
-            A comprehensive overview of the programming languages, frameworks, libraries, and developer tools I utilize to engineer full-stack systems.
+            A comprehensive overview of programming languages, AI/LLM toolkits, frameworks, and engineering tools I leverage to build scalable systems.
           </p>
         </div>
 
@@ -104,7 +114,7 @@ export default function Skills() {
             return (
               <div
                 key={index}
-                className="glass-card rounded-2xl p-5 border border-slate-200/90 shadow-sm glass-card-hover group relative overflow-hidden flex flex-col justify-between"
+                className="glass-card rounded-2xl p-5 border border-slate-200/90 shadow-sm glass-card-hover group relative overflow-hidden flex flex-col justify-between bg-white"
               >
                 {/* Glow accent on hover */}
                 <div className="absolute top-0 right-0 w-24 h-24 bg-sky-400/10 rounded-full blur-xl group-hover:bg-sky-400/20 transition-all pointer-events-none"></div>
